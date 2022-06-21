@@ -90,21 +90,21 @@
       * Active
 
 ## Provisioning and Platform Management Group
-   * Description & Responsibilities
-      * Boot
-      * Lifecycle
-      * Discovery
-      * OS environment installation to the D/IPU
-      * service/software installation to the D/IPU
-   * Alignment to project goal(s) -- Workgroup leader: Please update this bullet
-   * Leader
-      * Boris Glimcher
-   * Meeting Time & Date
-      * Tuesdays 13:00-13:45 ET
-   * Slack Channel
-      * [lifecycle-subgroup](https://opi-project.slack.com/archives/C0342L6T7EC)
-   * Status
-      * Active
+* Description & Responsibilities
+    * [Discovery & Provisioning](https://github.com/opiproject/opi-prov-life/blob/main/PROVISIONING.md)
+    * [Inventory](https://github.com/opiproject/opi-prov-life/blob/main/INVENTORY.md)
+    * Boot sequencing
+    * Lifecycle & Updates
+    * [Monitoring & Telemetry](https://github.com/opiproject/opi-prov-life/blob/main/MONITORING.md)
+* Alignment to project goal(s) -- Workgroup leader: Please update this bullet
+* Leader
+    * [Boris Glimcher](https://github.com/glimchb)
+* Meeting Time & Date
+    * Tuesdays 13:00-13:45 ET
+* Slack Channel
+    * [lifecycle-subgroup](https://opi-project.slack.com/archives/C0342L6T7EC)
+* Status
+    * Active
 
 ## Open Programmable Infrastructure API and Behavioral Model
    * Description & Responsibilities
