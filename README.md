@@ -6,7 +6,7 @@ The objective of the OPI initiative is to foster a community-driven
 standards-based open ecosystem for next generation architectures and
 frameworks based on DPU/IPU-like technologies.
 
-# **OPI Project Goals**
+## **OPI Project Goals**
 
 * Create community-driven standards-based open ecosystem for DPU/IPU-like
   technologies
@@ -18,7 +18,7 @@ frameworks based on DPU/IPU-like technologies.
 
 For more details, see the full [page](GOALS.md).
 
-# **OPI Project Backgrounder**
+## **OPI Project Backgrounder**
 
 A new class of cloud and datacenter infrastructure is emerging into the
 marketplace. This new infrastructure element, often referred as Data Processing
@@ -115,7 +115,7 @@ the elements of the DPU/IPU ecosystem:
 * remote provisioning software
 * remote orchestration software
 
-# I Want To Contribute
+## I Want To Contribute
 
 This project welcomes contributions and suggestions.  We are happy to have the Community involved via submission of **Issues and Pull Requests** (with substantive content or even just fixes). We are hoping for the documents, test framework, etc. to become a community process with active engagement.  PRs can be reviewed by by any number of people, and a maintainer may accept.
 
