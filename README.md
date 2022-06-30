@@ -1,5 +1,6 @@
-
 # **Open Programmable Infrastructure Project Vision Statement**
+
+[![MarkdownLint](https://github.com/opiproject/opi/actions/workflows/markdown.yml/badge.svg)](https://github.com/opiproject/opi/actions/workflows/markdown.yml)
 
 The objective of the OPI initiative is to foster a community-driven
 standards-based open ecosystem for next generation architectures and
