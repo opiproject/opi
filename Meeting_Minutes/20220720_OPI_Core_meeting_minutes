@@ -1,0 +1,91 @@
+Attendees:
+
+Paul Pindell
+Survinder Pal
+Dan Daly
+Elad 
+Renato Recio
+Kyle Mestery
+Asim Usman
+Venkat Pullela
+Kris Murphy
+Yan Fisher
+Sridhar Rao
+Patty Driever
+Anuradha Karuppiah
+Boris Gilmcher
+Joe White
+Shachar Tal
+Mark Sanders
+Darshana V
+Steven Royer
+Faisal Masood 
+Ryan Howard
+Glen Jaquette
+Nadav Haklai
+Shashank Balashankar
+Philip of SUSE
+Thomas Monjalon
+Nishita
+Ahn Thu Vo
+
+Agenda:
+
+* Welcome new members
+    * Asim Usman Dream Big semiconductor working on smartnic/dpu interested in how to contribute to OPI
+    * Survinder Pal architect in India as an individual contributor.
+    * 
+* BRIEF Group Updates (did you meet, do you have work/should the group be paused for now?) (10 Min.)
+    * Organizational/Administration
+        * 
+    * Vision Statement/Goals 
+        * Skip week
+    * Developer Platform / Proof of Concept/Reference Architecture
+        * Did meet and continuing to make progress
+    * Legal/Governance
+        * Did meet
+    * OPI API and Behavioral Model
+        * Did meet an meet tomorrow, making progress on API abstraction
+            * Are all vendors there and active?
+    * Events and Outreach
+        * Did not meet
+        * Boris and Kyle are giving talk at HOT interconnects in August
+    * Orientation
+        * New names added from spreadsheet
+    * Provisioning lifecycle mgmt. 
+        * Had meetings lots of discussions on ONIE and does it fit
+        * Running 3 POCs 
+            * sZTP -
+            * FIDO
+            * Otel- monitoring 
+    * Use Case group
+        * Did not meet but lively discussions in Slack
+        * Can we make the use case group be the group that reaches out to end customers to make sure the PoCs are aligned with real custom ruse case.
+        * Security, Storage, and Routing are the three use case areas
+            * Targeting telco, Service provider, tier 2 providers, enterprise
+                * Bell Canada, Comcast, Verizon, Tencent are the ones we know about.
+            * Should have a list of those we are pursuing
+            * And a list of the use cases we are pursuing
+            * Boris asked for a pull request to change the charter of the use case group. Elad agreed to do that
+* OPI and IPDK discussion Dan Daly - 30 Minutes (a Proposal)
+    * [https://docs.google.com/presentation/d/1Vkq9cvbAC4tjXl6xc5PrmL1q9Ex5zBFw/edit#slide=id.p1](https://docs.google.com/presentation/d/1Vkq9cvbAC4tjXl6xc5PrmL1q9Ex5zBFw/edit#slide=id.p1)
+    * 
+    * Wanting to merge slack, youtube, calendar
+    * Proposing an integration and release subgroup that would be the bridge to IPDK and other vendor’s sdks.  
+    * Immediate actions
+        * Merge slack, youtube etc.
+        * Create new integration and release subgroup 
+        * Have that group define how IPDK is brought into the sub-group
+        * Resolve overlaps with existing subgroups and IPDK
+        * Define new repos in OPI github if needed
+    * Venkat asked is this top down or bottom up. If IPDK has a release is it bottom up from IPDK to OPI or top down from OPI saying here is what 
+        * What is an OPI release how do we build it what is cadence etc. 
+    * Yan Fisher what did you mean by SDK being separate. 
+        * 
+    * Discussion that TSC is where decisions are made not in the subgroups.
+    * Joe White– OPI needs a release cycle
+    * IPDK has build and integration – create a container to solve a use case. 
+    * Boris view– remove IPDK code from ipdk github and merge into existing subgroups
+        * What isn’t merged into existing subgroups becomes the ci/cd and release 
+    * Renato asked how to participate, how the companies participating were chosen
+        * Not exclusionary. all can participate, join slack and contribute
