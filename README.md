@@ -6,6 +6,10 @@ The objective of the OPI initiative is to foster a community-driven
 standards-based open ecosystem for next generation architectures and
 frameworks based on DPU/IPU-like technologies.
 
+## **TSC Charter**
+
+You can read the current [TSC Charter](Open_Programmable_Infrastructure_Technical_Charter_Final-06-9-2022.pdf).
+
 ## **OPI Project Goals**
 
 * Create community-driven standards-based open ecosystem for DPU/IPU-like
