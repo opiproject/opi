@@ -48,14 +48,15 @@
 * Description & Responsibilities
   * Create a developer platform for producing applications that run on
     DPU/IPU devices
-* Customer-driven vendor-neutral approach to PoC development
+  * Customer-driven vendor-neutral approach to PoC development
+  * Integration CI
 * Alignment to project goal(s) -- Workgroup leader: Please update this bullet
 * Leader
   * Steven Royer
 * Meeting Time & Date
-  * Wednesdays 11am-12pm PT
+  * Ad hoc upon request
 * Slack Channel
-  * [poc-subgroup](https://opi-project.slack.com/archives/C033E418VCK)
+  * [poc-dev-platform](https://opi-project.slack.com/archives/C033E418VCK)
 * Status
   * Active
 
