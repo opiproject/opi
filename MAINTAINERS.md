@@ -54,12 +54,12 @@ The process to grant someone the maintainer role is simple:
   rights.
 * After discussion has ended, existing maintainers will vote on approving the
   new maintainer.
-* To recieve maintainership, the candidate must receive a majority of yes votes
+* To receive maintainership, the candidate must receive a majority of yes votes
   and zero no votes.
 * One final discussion with the candidate happens to ensure the candidate is
   ready to accept the maintainer role.
 * If successful, the candidate is added to the appropriate GitHub group to
-  gain maintainer access.
+  gain maintainer access, as well as the maintainers Slack channel.
 
 ### Revoking Maintainer Rights
 
@@ -69,16 +69,16 @@ due to their lack of git knowledge. In this case, the maintainers can talk
 to this indvidual and work to revoke their maintainer access.
 
 However, there are times when a maintainer may need to be forcefully
-removeed. When a maintainer acts in a way which is either detrimental to the
-OPI project, it raises a situation which needs to be handled quickly to ensure
-the long-term success and stability of the project. It is possible the
+removed. When a maintainer acts in a way which is detrimental to the OPI
+project, it raises a situation which needs to be handled quickly to ensure the
+long-term success and stability of the project. It is possible the
 maintainer in question will have their maintainer rights removed. The process
 for this is as follows:
 
 * Discuss with the individual privately about the concerns. Use email for this,
   sticking to the facts, and try to reach a resolution on the individuals.
   behavior. Ensure the individual understands their behavior needs to change.
-* Send an email discussing the individuals behavior to the maintainer mailing
+* Send an email discussing the individual's behavior to the maintainer mailing
   list. Work to resolve the issue in this forum.
 * If necessary, start a thread with maintainers except the individual in
   question regarding revoking the individuals maintainer rights.
