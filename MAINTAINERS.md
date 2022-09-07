@@ -24,6 +24,37 @@ project.
 You should understand the [contributing](https://github.com/opiproject/opi/blob/main/CONTRIBUTING.md)
 guidelines if you want to become a maintainer.
 
+## OPI Maintainer Groups
+
+We recognize the need to have a few different groups with merge rights. For
+example, the TSC is likely to want to merge to the main
+[OPI](https://github.com/opiproject/opi) repository around policies and
+procedures, but those same members may not have merge rights to other
+repositories with code in them.
+
+With the above in mind, the following three groups of maintainers exist inside
+of OPI:
+
+| Maintainer Group | Repositories Allowed To Merge                  |
+| ---------------- | ---------------------------------------------- |
+| opi-tsc          | `https://github.com/opiproject/opi`            |
+| opi-outreach     | `https://github.com/opiproject/opiproject.org` |
+| opi-maintainers  | All OPI repositories                           |
+
+This allows the TSC to help merge *policy* based things in the OPI
+repository. It also allows the Outreach group to merge website updates. It will
+also allow existing code reviewers to continue to merge *code* in the other
+repositories. And existing maintainers can still review and merge things in the
+opiproject.org and opi repositories as well, which will help with velocity in
+those repositories.
+
+Please note that even TSC and outreach members need to have a basic
+understanding of git to have merge rights.
+
+Finally, note that having merge rights to *any* OPI repo is a job and not a
+privilege. If people are not reviewing PRs in a meaningful way, they stand to
+lose merge rights, per the policy found below.
+
 ## OPI Maintainer Grant/Revocation Policy
 
 An OPI maintainer is a participant in OPI who has the ability to merge pull
