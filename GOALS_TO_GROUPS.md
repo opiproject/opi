@@ -20,8 +20,8 @@
 | Telemetry and observability                            |         |            |         |           |    X     |    X    |           |            |      X       |
 |                                                        | **Org** | **Vision** | **POC** | **Legal** | **PROV** | **API** | **Event** | **Orient** | **Use Case** |
 | **Common API Goals**                                   |         |            |         |           |          |         |           |            |              |
-| DPU/IPU Hardware                                       |         |            |         |           |          |    X    |           |            |              |
-| DPU/IPU-hosted applications                            |         |            |         |           |          |    X    |           |            |              |
+| D/IPU Hardware                                       |         |            |         |           |          |    X    |           |            |              |
+| D/IPU-hosted applications                            |         |            |         |           |          |    X    |           |            |              |
 | Host Node                                              |         |            |         |           |          |    X    |           |            |              |
 | (Remote) Provisioning SW                               |         |            |         |           |    X     |         |           |            |      X       |
 | (Remote) Orchestration SW                              |         |            |         |           |          |    X    |           |            |      X       |

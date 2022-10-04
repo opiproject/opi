@@ -4,7 +4,7 @@
 
 The objective of the OPI initiative is to foster a community-driven
 standards-based open ecosystem for next generation architectures and
-frameworks based on DPU/IPU-like technologies.
+frameworks based on D/IPU-like technologies.
 
 ## **TSC Charter**
 
@@ -12,11 +12,11 @@ You can read the current [TSC Charter](Open_Programmable_Infrastructure_Technica
 
 ## **OPI Project Goals**
 
-* Create community-driven standards-based open ecosystem for DPU/IPU-like
+* Create community-driven standards-based open ecosystem for D/IPU-like
   technologies
-* Create vendor agnostic framework and architecture for DPU/IPU-based software
+* Create vendor agnostic framework and architecture for D/IPU-based software
   stacks
-* Reuse existing or define a set of new common APIs for DPU/IPU-like
+* Reuse existing or define a set of new common APIs for D/IPU-like
   technologies when required
 * Provide implementation examples to validate the architectures/APIs
 
@@ -28,13 +28,13 @@ A new class of cloud and datacenter infrastructure is emerging into the
 marketplace. This new infrastructure element, often referred as Data Processing
 Unit (DPU) or Infrastructure Processing Unit (IPU), takes the form of a server
 hosted PCIe add-in card or on-board chip(s), containing one or more ASIC’s or
-FPGA's, usually anchored around a single powerful SoC device. The DPU/IPU-like
+FPGA's, usually anchored around a single powerful SoC device. The D/IPU-like
 devices have their roots in the evolution of SmartNIC devices but separate
 themselves from that legacy in several important ways.
 
 While a Smart NIC is clearly part of its host node’s compute system and exists
-to closely interact with and offload node hosted applications, the DPU/IPU
-dispenses with this secondary role. Instead, the DPU/IPU presents itself as a
+to closely interact with and offload node hosted applications, the D/IPU
+dispenses with this secondary role. Instead, the D/IPU presents itself as a
 complete compute system unto itself with the following key characteristics:
 
 * Presence of their own general purpose processor
@@ -47,15 +47,15 @@ complete compute system unto itself with the following key characteristics:
 * Strict security isolation from the host on the hardware-level
 * Unique network identity
 * Out-of-band management where the Data/Infrastructure Processing Unit
-  (DPU/IPU)-like device is managed separately from the server where it resides
-  or the DPU/IPU-like device can be used to manage the server
+  (D/IPU)-like device is managed separately from the server where it resides
+  or the D/IPU-like device can be used to manage the server
 
-The new system architecture based on DPU/IPU is fully capable of running
+The new system architecture based on D/IPU is fully capable of running
 independent software stacks and hosting its own applications using either
 embedded or orchestrated deployment models (see the chart below). These unique
-capabilities of the DPU/IPU are disruptive because they allow for key
+capabilities of the D/IPU are disruptive because they allow for key
 infrastructure functions and their associated software stacks to be completely
-removed from the host node’s CPU cores and to be relocated onto the DPU/IPU.
+removed from the host node’s CPU cores and to be relocated onto the D/IPU.
 Network, storage, security, and virtualization functions are all ideal targets
 for this relocation; in these cases the host cores become the exclusive domain
 of the application workloads.
@@ -63,7 +63,7 @@ of the application workloads.
 This arrangement solves multiple problems extant in current infrastructure. It
 restores the separation of concerns between infrastructure and application and
 solves an acute business problem for many enterprises. Specifically, the
-infrastructure workloads, now executing on the DPU/IPU, are independently
+infrastructure workloads, now executing on the D/IPU, are independently
 managed by the Infrastructure, NetOps, and SecOps teams while the applications
 can be managed by a DevOps team.
 
@@ -77,44 +77,44 @@ nodes at scale.
 It facilitates the simplification of the network, storage, and security APIs
 within the application, enabling more portable and performant applications,
 while still delivering the full benefits of SDN overlays, remote storage
-access, and in line encryption via the DPU/IPU infrastructure services.
+access, and in line encryption via the D/IPU infrastructure services.
 
 It creates a security air gap between the untrusted host applications and the
 infrastructure services. Virtualization control and crypto certificates are
-kept on the DPU/IPU making it impossible for malware on the host node to
+kept on the D/IPU making it impossible for malware on the host node to
 compromise the security of the hypervisor, the cloud’s underlying
 infrastructure, or other hosted applications.
 
-The proof of the power and leverage of an at scale DPU/IPU implementation has
+The proof of the power and leverage of an at scale D/IPU implementation has
 been demonstrated by AWS with its Nitro technology. Nitro has allowed AWS to
 secure, control, and manage its cloud infrastructure components and to even
 create IaaS Bare Metal nodes, where customers' applications magically seem to
 run directly on top of real metal hosts. But Nitro is a proprietary AWS
 solution as are similar efforts by other hyperscale cloud providers. The
-emerging DPU/IPU silicon and cards, offered as a merchant product, represent a
+emerging D/IPU silicon and cards, offered as a merchant product, represent a
 democratization of this advanced virtualization technology. Combined with the
 right software stack, the advantages of the Nitro-like architecture can now be
 realized by any organization or enterprise willing to build a private cloud
-infrastructure around DPU/IPU technology.
+infrastructure around D/IPU technology.
 
-But where will the right DPU/IPU software stack come from? And will it be a
+But where will the right D/IPU software stack come from? And will it be a
 closed, walled garden, single vendor offering? Or will it be an open,
 collaborative, multi-vendor, innovation driven, ecosystem similar to what has
 occurred with the Kubernetes and Container environments?
 
 The OPI project is being created to address these questions and to foster the
-emergence of such an open and creative software eco-system for DPU/IPU based
-cloud infrastructure. The project intends to delineate what a DPU/IPU is, to
-loosely define a framework(s) and architecture for a DPU/IPU-based software
+emergence of such an open and creative software eco-system for D/IPU based
+cloud infrastructure. The project intends to delineate what a D/IPU is, to
+loosely define a framework(s) and architecture for a D/IPU-based software
 stack(s) applicable to any vendors hardware solution, to allow the creation of
 a rich open source application ecosystem, to integrate with existing open
 source projects aligned to the same vision such as the Linux kernel,
 [IPDK.io](https://ipdk.io), [DPDK](https://www.dpdk.org/) and
 [SPDK](https://spdk.io/) to create new APIs for interaction with and between
-the elements of the DPU/IPU ecosystem:
+the elements of the D/IPU ecosystem:
 
-* the DPU/IPU hardware
-* DPU/IPU hosted applications
+* the D/IPU hardware
+* D/IPU hosted applications
 * the host node
 * remote provisioning software
 * remote orchestration software

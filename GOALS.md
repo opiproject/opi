@@ -1,6 +1,6 @@
 # **Detailed Goals for Open Programmable Infrastructure Project**
 
-* Create community-driven standards-based open ecosystem for DPU/IPU-like
+* Create community-driven standards-based open ecosystem for D/IPU-like
   technologies
   * Establish an open community to support vendor-independent and jointly
     co-developed ecosystem
@@ -8,7 +8,7 @@
     principles and is always open to new members and contributors
   * Adhere to existing and commonly accepted open standards or help foster best
     practices in lieu of standards, as required
-* Create vendor agnostic framework and architecture for DPU/IPU-based software
+* Create vendor agnostic framework and architecture for D/IPU-based software
   stacks
   * Lifecycle management
     * BMC, secure boot, root of trust, loading, etc
@@ -16,13 +16,13 @@
   * System Integration Framework
     * Define operating environment
     * Software abstraction layer/framework
-    * Support direct host access to DPU/IPU HW offloads
-    * Support services distributed across host(s) and DPU/IPU(s)
+    * Support direct host access to D/IPU HW offloads
+    * Support services distributed across host(s) and D/IPU(s)
   * Vendor-agnostic services
   * Telemetry → observability
 * Reuse existing or define a set of new common APIs, when required, for
-  * DPU/IPU hardware
-  * DPU/IPU-hosted applications
+  * D/IPU hardware
+  * D/IPU-hosted applications
   * Host Node
   * (Remote) provisioning software
   * (Remote) orchestration software
