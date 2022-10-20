@@ -1,16 +1,11 @@
-name: MarkdownLint
+name: Linters
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
-    paths:
-      - '**/*.md'
   pull_request:
     branches: [ main ]
-    paths:
-      - '**/*.md'
-
-  workflow_dispatch:
 
 jobs:
   markdown-lint:
@@ -20,6 +15,8 @@ jobs:
       - name: Run tests
         run: docker run -v $PWD:/workdir ghcr.io/igorshubovych/markdownlint-cli:latest --ignore=minutes --disable=MD013 "**/*.md"
 
-      # - uses: avto-dev/markdown-lint@v1.5.0
-      #   with:
-      #     args: './*.md'
+  shellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: azohra/shell-linter@v0.6.0
