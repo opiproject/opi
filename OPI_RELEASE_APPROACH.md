@@ -13,8 +13,8 @@ months.
 
 ## Concrete OPI Release Approach
 
-OPI will be releasing a set of artifacts, including a reference architecture
-and integration platform. **The reference architecture and integration platform
+OPI will be releasing a set of artifacts, including an example architecture
+and integration platform. **The example architecture and integration platform
 are not meant to be used in production.**
 
 The details of what this will look like are as follows:
@@ -23,7 +23,7 @@ The details of what this will look like are as follows:
   * Some language specific bindings for those files. For example, bindings for
     C++, golang, python, and Rust
   * Documentation around the protobuf files
-* A reference implementation which implements the protobuf files
+* An example implementation which implements the protobuf files
   * gRPC server code which incorporates the protobuf files
   * Implementation specific examples of the APIs themselves
     * SPDK for the Storage APIs
