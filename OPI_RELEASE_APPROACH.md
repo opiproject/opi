@@ -19,6 +19,7 @@ are not meant to be used in production.**
 
 The details of what this will look like are as follows:
 
+
 * The protobuf files themselves
   * Some language specific bindings for those files. For example, bindings for
     C++, golang, python, and Rust
@@ -42,6 +43,8 @@ The details of what this will look like are as follows:
   * sZTP code, including a custom client
 * A Container Storage Interface (CSI) library, client and helpful
   utilities called [goopicso](https://github.com/opiproject/goopicsi)
+* A behavioral model representing a DPU/IPU, against which all APIs/code will
+  be implemented.
 
 OPI is tracking work in the following specific areas, which will each contain
 pieces of the above release artifacts:
@@ -84,7 +87,7 @@ platform for both developer testing as well as verification. Each time a new
 API is added, the API will need to be implemented in the integration test
 suite in the OPI PoC repository.
 
-OPI will also produce a test plan, including a set of concrete tests, which
+OPI will also produce a test plan, including a set of conformance tests, which
 each vendor is recommended to run against their HW DPU or IPU devices
 running the OPI APIs. The vendors will then be encouraged to upload those
 test results to a webpage containing a table of all the vendor results.
