@@ -2,11 +2,11 @@
 
 OPI uses GitHub to manage reviews of pull requests.
 
-* If you are a new contributor see: [Steps to Contribute](#steps-to-contribute) and [GitHub Basic Process](doc-github-rules.md) for more details.
+* If you are a new contributor see: [Steps to Contribute](#steps-to-contribute) and [GitHub Basic Process](Policies/doc-github-rules.md) for more details.
 
 * If you have a trivial fix or improvement, go ahead and create a pull request,
   addressing (with `@...`) a suitable maintainer of this repository (see
-  [MAINTAINERS.md](MAINTAINERS.md)) in the description of the pull request.
+  [MAINTAINERS.md](Policies/MAINTAINERS.md)) in the description of the pull request.
 
 * Be sure to sign off on the [DCO](https://github.com/probot/dco#how-it-works).
 

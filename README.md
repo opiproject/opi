@@ -124,4 +124,4 @@ the elements of the DPU/IPU ecosystem:
 
 This project welcomes contributions and suggestions.  We are happy to have the Community involved via submission of **Issues and Pull Requests** (with substantive content or even just fixes). We are hoping for the documents, test framework, etc. to become a community process with active engagement.  PRs can be reviewed by by any number of people, and a maintainer may accept.
 
-See [CONTRIBUTING](CONTRIBUTING.md) and [GitHub Basic Process](doc-github-rules.md) for more details.
+See [CONTRIBUTING](CONTRIBUTING.md) and [GitHub Basic Process](Policies/doc-github-rules.md) for more details.
