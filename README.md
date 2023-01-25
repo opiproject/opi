@@ -9,7 +9,7 @@ frameworks based on DPU/IPU-like technologies.
 
 ## **TSC Charter**
 
-You can read the current [TSC Charter](Open_Programmable_Infrastructure_Technical_Charter_Final-06-9-2022.pdf).
+You can read the current [TSC Charter](Charters/Open_Programmable_Infrastructure_Technical_Charter_Final-06-9-2022.pdf).
 
 ## **OPI Project Goals**
 
