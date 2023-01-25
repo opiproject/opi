@@ -7,7 +7,6 @@ used lab equipment generally available in the market are appropriate.
 Pre-production equipment or equipment that does not service the
 goals of the OPI lab are inappropriate.
 
-
 ## Appropriate
 
 ### General purpose servers
@@ -48,7 +47,6 @@ goals of the OPI lab are inappropriate.
 
 - KVMs
 - Dongles
-
 
 ### Terminal servers
 
