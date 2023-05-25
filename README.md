@@ -68,7 +68,7 @@ infrastructure workloads, now executing on the DPU/IPU, are independently
 managed by the Infrastructure, NetOps, and SecOps teams while the applications
 can be managed by a DevOps team.
 
-![Backgrounder Image](Assets/Backgrounder.png)
+![OPI Device Abstraction](Assets/OPI_Device.svg)
 
 It prevents unexpected variations in the compute requirements of the
 applications from interfering with the infrastructure services and vice-versa
@@ -105,9 +105,12 @@ occurred with the Kubernetes and Container environments?
 
 The OPI project is being created to address these questions and to foster the
 emergence of such an open and creative software eco-system for DPU/IPU based
-cloud infrastructure. The project intends to delineate what a DPU/IPU is, to
-loosely define a framework(s) and architecture for a DPU/IPU-based software
-stack(s) applicable to any vendors hardware solution, to allow the creation of
+cloud infrastructure. The project defines an **OPI Device**, a device
+abstraction across DPU and IPU implementations that can run DPU/IPU
+applications in a common and consistent way. An OPI Device (opidev) is
+provisioned using the mechanisms defined by 
+[here](https://github.com/opiproject/opi-api) and supports
+the [OPI APIs](https://github.com/opiproject/opi-api) that aim to enable  
 a rich open source application ecosystem, to integrate with existing open
 source projects aligned to the same vision such as the Linux kernel,
 [IPDK.io](https://ipdk.io), [DPDK](https://www.dpdk.org/) and
