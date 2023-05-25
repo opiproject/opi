@@ -108,7 +108,7 @@ emergence of such an open and creative software eco-system for DPU/IPU based
 cloud infrastructure. The project defines an **OPI Device**, a device
 abstraction across DPU and IPU implementations that can run DPU/IPU
 applications in a common and consistent way. An OPI Device (opidev) is
-provisioned using the mechanisms defined by 
+provisioned using the mechanisms defined by
 [here](https://github.com/opiproject/opi-api) and supports
 the [OPI APIs](https://github.com/opiproject/opi-api) that aim to enable  
 a rich open source application ecosystem, to integrate with existing open
