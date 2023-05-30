@@ -15,6 +15,6 @@ The first examples of OPN platforms will be DPUs & IPUs that plug into a Server 
 Future form factors such as Smart Switches can also act as OPN platforms.
 OPN platforms connect to orchestration, SDN controllers, and/or mangement applications over the network.
 
-!(OPN)[Assets/OPN.png]
+![OPN](Assets/OPN.png)
 
-!(OPN Defintion)[Assets/OPN_Definition.png]
+![OPN Defintion](Assets/OPN_Definition.png)
