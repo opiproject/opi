@@ -18,3 +18,7 @@ OPN platforms connect to orchestration, SDN controllers, and/or mangement applic
 ![OPN](Assets/OPN.png)
 
 ![OPN Defintion](Assets/OPN_Definition.png)
+
+# Alternative
+
+* OPI uses the term **DPU/IPU** to represent the entire class of DPU/IPU-like devices, and can refer to either the system containing a DPU/IPU-like device or to the device itself. In cases where brevity is needed (especially in code), OPI uses the term **xPU**.
