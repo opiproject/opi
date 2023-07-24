@@ -42,6 +42,8 @@ from contributors on the same issue.
 * Commits should be as small as possible, while ensuring that each commit is
   correct independently (i.e., each commit should compile and pass tests).
 
+* The commit message should follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#summary) syntax.
+
 * If your patch is not getting reviewed or you need a specific person to review
   it, you can @-reply a reviewer asking for a review in the pull request or a
   comment. The project will soon have an IRC and/or Slack channel setup, which
