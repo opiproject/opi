@@ -134,9 +134,9 @@ An alphabetical list of maintainers for the OPI Project by last name:
 
 * [Boris Glimcher](https://github.com/glimchb)
 * [Artek Koltun](https://github.com/artek-koltun)
-* [Steven Royer](https://github.com/seroyer)
 * [Mark Sanders](https://github.com/sandersms)
 
 We also maintain a list of Emeritus Maintainers:
 
 * [Kyle Mestery](https://github.com/mestery)
+* [Steven Royer](https://github.com/seroyer)
