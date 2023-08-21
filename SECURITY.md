@@ -50,7 +50,7 @@ identified for the issue at hand.
 [request a CVE](https://www.cve.org/ReportRequest/ReportRequestForNonCNAs#RequestCVEID) for the vulnerability.
 
 7. After the issue has been disclosed, an announcement will be made on the OPI
-Slack [#team-security](https://opi-project.slack.com/archives/C05LU6KJ8KZ) channel
+Slack [#proj-security](https://opi-project.slack.com/archives/C05LU6KJ8KZ) channel
 with more information about the issue and the fix so that community members can
 decide for themselves what their exposure is and if they should move to the new
 release.
