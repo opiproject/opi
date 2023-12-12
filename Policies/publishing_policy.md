@@ -42,4 +42,4 @@ This policy covers the review of technical content for public presentations and 
 - YouTube Channel
   - Management and maintenance is done by the OPI Outreach Committee
   - Content oversight is done by the TSC through the Technical Content Approval Process (described above)
-  - Youtube content is reachable through [Linux Foundation YouTube](https://www.youtube.com/c/LinuxfoundationOrg) or through a search: [Query-"Open Programmable Infrastructure"](https://www.youtube.com/results?search_query=open+programmable+infrastructure)
+  - Youtube content is reachable through [Open Programmable Infrastructure OPI Project YouTube](https://www.youtube.com/@OPI_project)
