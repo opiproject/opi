@@ -9,7 +9,7 @@ repos:
     -   id: check-yaml
     -   id: check-added-large-files
 -   repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 37.125.2
+    rev: 37.129.1
     hooks:
     -   id: renovate-config-validator
 -   repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
