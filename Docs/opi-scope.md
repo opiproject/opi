@@ -2,7 +2,7 @@
 
 The following is a proposal from Intel on a future OPI Release.
 
-# Proposed OPI Scope
+## Proposed OPI Scope
 
 1. OPI Provisioning & Lifecycle Specification (started [here](https://github.com/opiproject/opi-prov-life/blob/main/SPEC.md))
     - Ratified by OPI w/ version number & tracking
@@ -13,7 +13,7 @@ The following is a proposal from Intel on a future OPI Release.
     - [Port Config](https://github.com/opiproject/opi-api/issues/441): Ethernet port state, statistics, and configuration.
         - Current status: OpenConfig being developed based on interfaces
     - [Virtual Device Config](https://github.com/opiproject/opi-api/issues/442): Virtual port/disk add/del, statistics, configuration, SR-IOV config.
-        - Current status: Custom OpenConfig developed 
+        - Current status: Custom OpenConfig developed
     - Virtual L2 Learning:  Learn MACs on virtual ports, as well as associate IP addresses to MACs (ARP/ND).
         - Current status: Using P4Runtime directly in OVS
     - LACP Active-Active Link Redundancy: Support physical port multipath to multiple attached switches.
@@ -24,7 +24,7 @@ The following is a proposal from Intel on a future OPI Release.
         - Current status: Using P4Runtime directly
     - Kubernetes L3 Routing: Route between pods (local and remote), discover new endpoints, load balance across endpoints that share the same VIP, NAT in/out of virtual IPs.
         - Current Status: Using Calico Dataplane API
-    - Kubernetes Policy: Create ACLs based on IP N-tuple (Source IP, Dest IP, Protocol, Source Port, Dest Ports, etc.). 
+    - Kubernetes Policy: Create ACLs based on IP N-tuple (Source IP, Dest IP, Protocol, Source Port, Dest Ports, etc.)
         - Current Status: Use Calico Dataplane API to implement Kubernetes Policy
     - EVPN Routing Gateway: Interconnect virtual L2/L3 domains using EVPN w/ dataplane in the IPU.
         - Current status: Programming API submitted [here](https://github.com/opiproject/opi-api/tree/main/network/evpn-gw).
@@ -39,4 +39,3 @@ The following is a proposal from Intel on a future OPI Release.
     - **Kubernetes L3 Routing, Policy & Load Balancing** using [Calico](https://www.tigera.io/project-calico/) found [here](https://github.com/ipdk-io/k8s-infra-offload) for [IPDK](https://ipdk.io) compatible targets
     - **EVPN Gateway** using [FRR](https://frrouting.org/) found [here](https://github.com/opiproject/opi-evpn-bridge) for Intel targets
     - **Inline IPsec** using [strongSwan](https://www.strongswan.org/) found [here](https://github.com/ipdk-io/ipsec-recipe) for [IPDK](https://ipdk.io) targets
-
