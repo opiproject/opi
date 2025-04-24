@@ -31,14 +31,14 @@ For more details, see the full [page](GOALS.md).
 ## **OPI Project Backgrounder**
 
 A new class of cloud and datacenter infrastructure is emerging into the
-marketplace. This new infrastructure element, often referred as Data Processing
+marketplace. This new infrastructure element, often referred to as Data Processing
 Unit (DPU) or Infrastructure Processing Unit (IPU), takes the form of a server
-hosted PCIe add-in card or on-board chip(s), containing one or more ASIC’s or
-FPGA's, usually anchored around a single powerful SoC device. The DPU/IPU-like
+hosted PCIe add-in card or on-board chip(s), containing one or more ASICs or
+FPGAs, usually anchored around a single powerful SoC device. The DPU/IPU-like
 devices have their roots in the evolution of SmartNIC devices but separate
 themselves from that legacy in several important ways.
 
-While a Smart NIC is clearly part of its host node’s compute system and exists
+While a SmartNIC is clearly part of its host node’s compute system and exists
 to closely interact with and offload node hosted applications, the DPU/IPU
 dispenses with this secondary role. Instead, the DPU/IPU presents itself as a
 complete compute system unto itself with the following key characteristics:
@@ -109,7 +109,7 @@ collaborative, multi-vendor, innovation driven, ecosystem similar to what has
 occurred with the Kubernetes and Container environments?
 
 The OPI project is being created to address these questions and to foster the
-emergence of such an open and creative software eco-system for DPU/IPU based
+emergence of such an open and creative software ecosystem for DPU/IPU based
 cloud infrastructure. The project intends to delineate what a DPU/IPU is, to
 loosely define a framework(s) and architecture for a DPU/IPU-based software
 stack(s) applicable to any vendors hardware solution, to allow the creation of
