@@ -8,12 +8,12 @@ Josh Brooks, Chief Solutions Architect  |  josh\@worldtechit.com
 ## What is an OPI Blueprint (Intent and Goals)?
 
 An OPI Blueprint is an example architecture that shows how to
-operationalize an open-source component within the OPI ecosystem. Rather
+operationalize an open source component within the OPI ecosystem. Rather
 than presenting raw code, APIs, or RFC specifications, a Blueprint takes an
 OPI-supported technology and demonstrates a practical, real-world
 deployment pattern that an enterprise customer or systems integrator could
 replicate. **The intent is to:** **Accelerate adoption** by bridging the
-gap between OPI’s open-source projects and production-ready deployments.
+gap between OPI’s open source projects and production-ready deployments.
 Customers don’t buy RFC adoption—they buy outcomes. **Showcase the value of
 DPU/IPU technology** in offloading complex networking, security, and
 storage functions to dedicated hardware, freeing host CPU cores for
@@ -73,13 +73,13 @@ company?”*
 ## How do Blueprints tie-in to OPI?
 
 Blueprints are the adoption arm of the OPI Project. The OPI Project’s core
-mission is to create a vendor-neutral, open-source framework of APIs and
+mission is to create a vendor-neutral, open source framework of APIs and
 tools for managing IPUs and DPUs. That work produces standardized
 interfaces, reference implementations, and tested integrations—but it
 doesn’t inherently show an enterprise customer how to operationalize those
 components. Blueprints close that gap by: **Consuming OPI APIs and tools**
 in validated, end-to-end architectures that prove multi-vendor
-interoperability. **Providing the “last mile”** between OPI’s open-source
+interoperability. **Providing the “last mile”** between OPI’s open source
 projects (opi-api, sztp, DPU Operator) and what a customer actually needs
 to stand up in their data center. **Creating a feedback loop** where
 real-world deployment patterns surface gaps or enhancements needed in the
