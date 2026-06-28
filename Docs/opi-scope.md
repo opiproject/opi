@@ -38,4 +38,4 @@ The following is a proposal from Intel on a future OPI Release.
     - **Virtualized L2 Switching, Policy & Load Balancing** using [OVS](https://openvswitch.org)/[OVN](https://ovn.org) found [here](https://github.com/ipdk-io/networking-recipe) for [IPDK](https://ipdk.io) compatible targets
     - **Kubernetes L3 Routing, Policy & Load Balancing** using [Calico](https://www.tigera.io/project-calico/) found [here](https://github.com/ipdk-io/k8s-infra-offload) for [IPDK](https://ipdk.io) compatible targets
     - **EVPN Gateway** using [FRR](https://frrouting.org/) found [here](https://github.com/opiproject/opi-evpn-bridge) for Intel targets
-    - **Inline IPsec** using [strongSwan](https://www.strongswan.org/) found [here](https://github.com/ipdk-io/ipsec-recipe) for [IPDK](https://ipdk.io) targets
+    - **Inline IPsec** using [strongSwan](https://www.strongswan.org/) found [here](https://github.com/ipdk-io/ipsec-recipe) for [IPDK](https://ipdk.io) compatible targets
